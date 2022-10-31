@@ -3,8 +3,12 @@ package com.api.specification.services;
 import com.api.specification.models.UsuarioModel;
 import org.springframework.stereotype.Service;
 
-@Service
+import java.util.List;
+
+
 public interface UsuarioService {
 
     UsuarioModel salvar(UsuarioModel usuario);
+
+    List<UsuarioModel> buscarTodos();
 }
