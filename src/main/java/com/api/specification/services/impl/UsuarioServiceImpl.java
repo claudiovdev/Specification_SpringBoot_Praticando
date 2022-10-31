@@ -26,4 +26,6 @@ public class UsuarioServiceImpl implements UsuarioService {
     public List<UsuarioModel> buscarTodos() {
         return repository.findAll();
     }
+
+
 }

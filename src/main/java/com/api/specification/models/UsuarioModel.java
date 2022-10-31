@@ -22,6 +22,6 @@ public class UsuarioModel {
     @Column(nullable = false)
     private Integer idade;
 
-    @Column(nullable = false)
+
     private String status;
 }
