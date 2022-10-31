@@ -11,4 +11,6 @@ public interface UsuarioService {
     UsuarioModel salvar(UsuarioModel usuario);
 
     List<UsuarioModel> buscarTodos();
+
+    List<UsuarioModel> buscaMaiorDeIdade(String nome);
 }

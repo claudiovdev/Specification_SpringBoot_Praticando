@@ -27,5 +27,10 @@ public class UsuarioServiceImpl implements UsuarioService {
         return repository.findAll();
     }
 
+    @Override
+    public List<UsuarioModel> buscaMaiorDeIdade(String nome) {
+        return repository.buscarMaiorDeIdade(nome);
+    }
+
 
 }
